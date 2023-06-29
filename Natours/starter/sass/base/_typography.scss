@@ -52,7 +52,7 @@ body {
   // color: transparent;
   @include font-gradient;
   letter-spacing: 0.2rem;
-  transition: all 0.2s;
+  transition: $transition-all-short;
 
   &:hover {
     transform: skewY(2deg) skewX(15deg) scale(1.1);
